@@ -86,6 +86,7 @@ npx wrangler dev worker.js
 ## ❓ 常见问题
 
 **Q: 用了一段时间突然报错 401？**
+
 A: 说明你的 Token 或 Cookie 过期了。
 
 1.  去网页版 F12 抓取新的 Token 和 Cookie。
@@ -93,6 +94,7 @@ A: 说明你的 Token 或 Cookie 过期了。
 3.  重启 `npx wrangler dev worker.js` 即可。
 
 **Q: 为什么移除了余额查询？**
+
 A: 官方接口变动频繁，为了保证核心对话功能的稳定性，我们精简了代码，专注于提供最稳的聊天体验。
 
 -----
